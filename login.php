@@ -61,11 +61,11 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body is="dmx-app" id="login">
+<body is="dmx-app" id="login" class="appbg">
   <div is="dmx-browser" id="browser1"></div>
 
   <div class="ml-auto mr-auto pt-5 pb-5 pl-5 pr-5 container-fluid style4">
-    <main class="style3 mt-auto mb-auto ml-auto mr-auto container bg-light">
+    <main class="style3 mt-auto mb-auto ml-auto mr-auto container bg-white">
 
       <img src="assets/images/acima%20logo.png" class="style6">
       <form class="form-signin style1" method="post" is="dmx-serverconnect-form" id="serverconnectform1" action="dmxConnect/api/login.php" dmx-on:success="browser1.goto('google.com')" dmx-on:unauthorized="browser1.alert('Try Again')" dmx-on:reset="browser1.goto('registration.php')">
