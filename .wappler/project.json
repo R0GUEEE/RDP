@@ -1,0 +1,44 @@
+{
+  "projectName": "RDP",
+  "styleFile": "/css/style.css",
+  "assetsFolder": "/assets",
+  "designFramework": "bootstrap5",
+  "frameworks": [
+    {
+      "name": "fontawesome_5",
+      "type": "cdn"
+    },
+    {
+      "name": "bootstrap5",
+      "type": "local"
+    },
+    {
+      "name": "appConnect",
+      "type": "local"
+    }
+  ],
+  "projectServerModel": "PHP",
+  "runtime": "capacitor",
+  "targets": [
+    {
+      "name": "Development",
+      "remoteURL": "http://r0gueee.asuscomm.com",
+      "access": "ftp",
+      "databaseConnectionType": "custom",
+      "db_host": "r0gueee.asuscomm.com",
+      "db_port": "3306",
+      "db_user": "pi",
+      "db_password": "1294",
+      "db_database": "MySite",
+      "ftpServer": "192.168.50.30",
+      "ftpRemoteFolder": "/var/www/html",
+      "ftpUser": "pi",
+      "ftpPassword": "539fe5b3"
+    }
+  ],
+  "activeTarget": "Development",
+  "useRouting": true,
+  "addBase": true,
+  "routingHandler": "apache",
+  "projectType": "web"
+}

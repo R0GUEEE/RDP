@@ -1,0 +1,76 @@
+.style1 {
+    position: static;
+    text-align: center
+}
+.style2 {
+    margin-left: 10px;
+    margin-right: 10px}
+.style3 {
+    width: 600px;
+    display: inline-block;
+    border: 5px solid #00b2ff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    padding: 23px 20px 20px
+}
+.style4 {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1
+}
+.style5 {}
+.style6 {
+    width: 100%
+}
+.style6:active {
+    display: block
+}
+.style7 {
+    background-size: auto;
+    background-image: url("../assets/images/acima%20logo.png")
+}
+.style7:active {
+    background-image: url("../assets/images/acima%20logo.png");
+    background-size: auto
+}
+.style8 {
+    text-align: center
+}
+.style9 {
+    text-align: right
+}
+.style10 {
+    overflow: visible;
+    border-color: #000;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block}
+.style11 {
+    overflow: visible;
+    border-color: #000;
+    border-style: solid;
+    width: 200px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+.style12 {
+    margin-bottom: 0px;
+    margin-right: 0px;
+    display: block;
+    text-align: center
+}
+.style13 {
+    display: block
+}
+.style14 {
+    text-align: center
+}
+.style15 {
+    text-align: center
+}
